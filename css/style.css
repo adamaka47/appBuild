@@ -265,6 +265,8 @@ a {
 	background-position: 30px 35px;
 	-webkit-background-size: 200px 150px;
 	background-size: 200px 150px;
+	padding-left: 0;
+	padding-right: 48px;
 }
 
 .features-wrapper__title {
@@ -536,6 +538,7 @@ a {
 	.features-wrapper__two .features-wrapper__info {
 		order: -1;
 		background-position: 45px 5px;
+		padding-right: 0;
 	}
 
 	.features-wrapper__two .features-wrapper__img img {
