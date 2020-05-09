@@ -4,8 +4,14 @@ $(document).ready(function() {
 		vertical: true,
 		verticalSwiping: true,
 		dots: true,
-		autoplay: true,
+		// autoplay: true,
 		autoplaySpeed: 2500,
 		
 	});
+
+
+	$('.menu__burger').on('click', function() {
+		$('.menu-list').slideToggle();
+	})
+
 });
